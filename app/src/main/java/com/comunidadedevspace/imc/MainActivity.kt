@@ -1,8 +1,10 @@
 package com.comunidadedevspace.imc
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.activity.result.contract.ActivityResultContracts
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 
@@ -40,15 +42,24 @@ class MainActivity : AppCompatActivity() {
 
             } else {
 
-                val peso= pesostr.toFloat()
-                val altura= alturastr.toFloat()
+                val peso = pesostr.toFloat()
+                val altura = alturastr.toFloat()
 
                 // calcular imc
 
                 val alturaQ2 = altura * altura
                 val resultado = peso / alturaQ2
 
-                println(" miguel ação do botão" + resultado)
+                // Navegar par proxima tela
+                // Criar o layout
+                // Mostrar os dados
+
+                val intent = Intent(this, ResultActivity::class.java)
+                intent.putExtra(KEY_RESULT_IMC,resultado)
+                startActivity(intent)
+
+
+
             }
 
 
