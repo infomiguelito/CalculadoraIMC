@@ -25,14 +25,14 @@ class ResultActivity : AppCompatActivity() {
         val tvClassificacao = findViewById<TextView>(R.id.tv_classificacao)
         tvResult.text = result.toString()
 
-        val classificacao : String = if(result <= 18.5f){
-              "MAGREZA"
-        } else if (result > 18.5f && result <=24.9f){
-              "NORMAL"
-        } else if (result > 25f && result <= 29.9){
-              "SOBRE PESO"
-        } else if (result > 30f && result <= 39.9f){
-              "OBESIDADE"
+        val classificacao: String = if (result <= 18.5f) {
+            "MAGREZA"
+        } else if (result > 18.5f && result <= 24.9f) {
+            "NORMAL"
+        } else if (result > 25f && result <= 29.9) {
+            "SOBRE PESO"
+        } else if (result > 30f && result <= 39.9f) {
+            "OBESIDADE"
         } else {
             "OBESIDADE GRAVE"
         }

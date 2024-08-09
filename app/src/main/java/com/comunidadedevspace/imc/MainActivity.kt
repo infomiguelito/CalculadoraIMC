@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         val edt_peso = findViewById<TextInputEditText>(R.id.edt_peso)
         val edt_altura = findViewById<TextInputEditText>(R.id.edt_altura)
         val Btncalcular = findViewById<Button>(R.id.btn_calcular)
