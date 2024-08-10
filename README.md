@@ -5,8 +5,7 @@ Utilizando android nativo na linguagem Kotlin , calculadora IMC que exibe o resu
 <!-- You can add more screenshots here if you like -->
 <img src="https://github.com/user-attachments/assets/76baba7c-7782-4640-8195-d3acfa2622ed" width=200/> <img src="https://github.com/user-attachments/assets/ec17f3bf-f2b2-4c15-ae89-3f5233e6e153" width="200"/>
 
-## Tecnologiashttps://github.com/user-attachments/assets/76baba7c-7782-4640-8195-d3acfa2622ed
-
+## Tecnologiashttps:
 - Acitivity
 - Intent
 - Snackbar
